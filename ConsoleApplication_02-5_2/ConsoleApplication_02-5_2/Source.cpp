@@ -18,6 +18,9 @@ void main(void)
 	cout << "Praktikumsaufgabe: Nr.: 02-5.2" << endl;
 	cout << endl;
 
+
+	cout << "Aufgabe 1." << endl;
+	cout << endl;
 	cout << "Bitte Integer-Wert zwischen 1 und 30 eingeben: ";
 	cin >> inputValue;
 	cout << endl;
@@ -31,6 +34,15 @@ void main(void)
 		result *= i;
 
 	cout << "Die Fakultät für " << inputValue << " beträgt: " << result << endl;;
+
+	cout << "Aufgabe 2." << endl;
+	cout << endl;
+	result = 1;
+	for (int i = 1; i <= 32; i++)
+	{
+		result *= i;
+		cout << i << "! = " << result << endl;
+	}
 
 	cout << endl;
 	system("pause");
