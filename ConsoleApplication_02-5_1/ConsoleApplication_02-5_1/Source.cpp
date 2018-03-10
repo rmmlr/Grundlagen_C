@@ -20,15 +20,23 @@ void main(void)
 
 	cout << "Aufgabe 1. a)" << endl;
 	cout << endl;
+	int result = 1;
 	for (int i = 1; i <= 100; i++)
-		cout << i << "; ";
+	{
+		result += i;
+		cout << result << "; ";
+	}
 	cout << endl;
 	cout << endl;
 
 	cout << "Aufgabe 1. b)" << endl;
 	cout << endl;
-	for (int i = 100; i > 0; i--)
-		cout << i << "; ";
+	result = 100;
+	for (int i = 1; i <= 100; i++)
+	{
+		result += i;
+		cout << result << "; ";
+	}
 	cout << endl;
 	cout << endl;
 
