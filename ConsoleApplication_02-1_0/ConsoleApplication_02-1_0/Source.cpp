@@ -57,7 +57,7 @@ void printBallData(float radius, float pi)
 	cout << endl;
 	cout << "Radius\t\tr = " << radius << " m" << endl;
 	cout << "Oberfläche\tA = " << 4 * pi * radius * radius << " m\xB2" << endl;
-	cout << "Volumen\t\tV = " << 4/3 * pi * radius * radius * radius << " m\xB3" << endl;
+	cout << "Volumen\t\tV = " << (4 * pi * radius * radius * radius) / 3 << " m\xB3" << endl;
 	cout << endl;
 	cout << endl;
 }
