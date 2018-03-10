@@ -20,7 +20,7 @@ void main(void)
 
 	cout << "Aufgabe 1. a)" << endl;
 	cout << endl;
-	int result = 1;
+	int result = 0;
 	for (int i = 1; i <= 100; i++)
 	{
 		result += i;
@@ -31,8 +31,8 @@ void main(void)
 
 	cout << "Aufgabe 1. b)" << endl;
 	cout << endl;
-	result = 100;
-	for (int i = 1; i <= 100; i++)
+	result = 0;
+	for (int i = 100; i >= 1; i--)
 	{
 		result += i;
 		cout << result << "; ";
