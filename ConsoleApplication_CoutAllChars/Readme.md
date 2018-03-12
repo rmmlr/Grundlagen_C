@@ -1,4 +1,8 @@
-# Ausgabe aller ASCII-256-Zeichen des geladenen Zeichensatzes
+# Ausgabe aller ASCII-256-Zeichen
+
+Ausgabe ist abhängig vom geladenen Zeichensatz, so gibt es insbesodere Abweichungen bei den deutschen Umlauten.
+
+
 ```
 0:              1:       ☺      2:       ☻      3:       ♥
 4:       ♦      5:       ♣      6:       ♠      7:
