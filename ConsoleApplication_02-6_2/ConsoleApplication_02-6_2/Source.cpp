@@ -6,7 +6,7 @@ void main(void)
 {
 	// Wenn Programm nicht startet (keine Konsolenausgabe) bitte folgende Zeile
 	// auskommentieren oder Anwendung mit Administratorrechten neu starten.
-	//locale::global(locale("German_germany"));
+	locale::global(locale("German_germany"));
 
 
 	//Variablendeklaration
