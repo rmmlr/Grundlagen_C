@@ -5,7 +5,7 @@ using namespace std;
 void main(void)
 {
 	// Wenn Programm nicht startet (keine Konsolenausgabe) bitte folgende Zeile auskommentieren
-	//locale::global(locale("German_germany"));
+	locale::global(locale("German_germany"));
 	std::cout.precision(19);
 
 	//Pi-Berechnung auf Basis einer alternierenden unendlichen Reihe nach Euler
