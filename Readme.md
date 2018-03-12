@@ -3,8 +3,10 @@
 
 ## Inhalt
 * Komplex 02
-  + Teil 2
-  + Teil 3
+  + Aufgaben zu Teil 2
+  + Aufgaben zu Teil 3
 * Zusätzliche Programme
-  + __CalcPi__ Iterative Berechnung der Kreiszahl Pi
-  + __CoutAllChars__ Ausgabe aller ASCII-256-Zeichen
+  + CalcPi
+: Iterative Berechnung der Kreiszahl Pi
+  + CoutAllChars
+: Ausgabe aller ASCII-256-Zeichen
