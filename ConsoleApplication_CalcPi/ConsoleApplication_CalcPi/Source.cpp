@@ -5,7 +5,7 @@ using namespace std;
 void main(void)
 {
 	// Wenn Programm nicht startet (keine Konsolenausgabe) bitte folgende Zeile auskommentieren
-	locale::global(locale("German_germany"));
+	//locale::global(locale("German_germany"));
 	std::cout.precision(19);
 
 	//Pi-Berechnung auf Basis einer alternierenden unendlichen Reihe nach Euler
@@ -14,7 +14,7 @@ void main(void)
 
 	//Achtung: Genauigkeit in diesem Beispiel beträgt 14 Stellen.
 	//Ggf. weitere angezeigten Stellen unterligen einer Unschärfe, welche auf die maximale Auflösung
-	//des Datentyps "long double" zuruckzuführen ist.
+	//des Datentyps "long double" zurück zuführen ist.
 
 	//Variablendeklaration
 	long double a = 2;
@@ -27,12 +27,12 @@ void main(void)
 	cout << "Pi-Berechnung auf Basis einer alternierenden unendlichen Reihe  nach Euler" << endl;
 	cout << endl;
 
-	for (int i = 0; i < 500000; i++)
+	for (int i = 0; i < 500000; i++) //Anzahl maximaler Iterationen auf 50000 begrenzt (kein Deadlock)
 	{
 		lastPi = pi;
 		long double op = 4 / (a * b * c);
 
-		if (i % 2)
+		if (i % 2) //Wenn i ungerade
 			pi -= op;
 		else
 			pi += op;
