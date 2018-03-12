@@ -5,6 +5,6 @@ Pi-Berechnung auf Basis einer alternierenden unendlichen Reihe nach Euler:
 
 Siehe auch: https://de.wikihow.com/Pi-berechnen
 
-### Achtung:
+#### Achtung:
 Die Genauigkeit in diesem Beispiel beträgt 14 Stellen. Ggf. weitere angezeigten Stellen unterligen einer Unschärfe, welche auf die maximale Auflösung des Datentyps "long double" zurück zuführen ist.
 
