@@ -1,6 +1,6 @@
 # Ausgabe aller ASCII-256-Zeichen
 
-Ausgabe ist abhängig vom geladenen Zeichensatz, so gibt es insbesodere Abweichungen bei den deutschen Umlauten.
+Ausgabe ist abhängig vom geladenen Zeichensatz, so gibt es insbesondere Abweichungen bei den deutschen Umlauten.
 
 
 ```
