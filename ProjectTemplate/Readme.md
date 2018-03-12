@@ -2,7 +2,7 @@
 
 ## Inhalt
 
-* _ConsoleApplication_GrundlagenC.zip_ Projektvorlage zum Erstellen einer Win32 Konsolenanwendung. In der Quelldatei Source.cpp ist die Main-Funktion bereits angelegt.
+* ConsoleApplication_GrundlagenC.zip (Projektvorlage zum Erstellen einer Win32 Konsolenanwendung. In der Quelldatei Source.cpp ist die Main-Funktion bereits angelegt.)
 
 
 ## Installation
