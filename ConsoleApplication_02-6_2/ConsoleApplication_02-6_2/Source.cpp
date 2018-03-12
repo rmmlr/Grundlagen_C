@@ -27,7 +27,7 @@ void main(void)
 	cout << endl;
 	do
 	{
-		amount *= 1 + ((float)rate / 100); //Betrag um Faktor erhöhen
+		amount *= 1 + (rate / 100); //Betrag um Faktor erhöhen
 		years++;
 	} while (amount < target);
 
