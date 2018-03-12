@@ -7,6 +7,6 @@
   + Aufgaben zu Teil 3
 * Zusätzliche Programme
   + CalcPi
->>> Iterative Berechnung der Kreiszahl Pi
+    Iterative Berechnung der Kreiszahl Pi
   + CoutAllChars
->>> Ausgabe aller ASCII-256-Zeichen
+    Ausgabe aller ASCII-256-Zeichen
