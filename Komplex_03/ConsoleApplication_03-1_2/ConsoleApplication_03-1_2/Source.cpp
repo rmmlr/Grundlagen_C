@@ -15,10 +15,7 @@ using namespace std;
 
 //Variablendeklaration
 
-//Mehrwertsteuersatz (in Prozent)
-float const TAX_RATE = 19;
-
-//Anlagakapital (in Euro)
+//Startkapital (in Euro)
 float m_Amount = 0;
 //Laufzeit (in Jahren)
 float m_Runtime = 0;
@@ -27,7 +24,7 @@ float m_Runtime = 0;
 //Funktionen
 void inputData();
 float calcEndAmount(float amount);
-void printData();
+void printData(float rate, float runtime, float amount, float endAmount);
 
 void main(void)
 {
@@ -38,8 +35,11 @@ void main(void)
 
 	//Variablendeklaration
 
+	//Zinssatz (in Prozent)
+	float rate = 3.5;
 
-
+	//Endbetrag
+	float endAmount = 0;
 
 	//Ausgabekopf
 	cout << "Grundlagen Programmierung C" << endl;
@@ -50,8 +50,12 @@ void main(void)
 	//Work
 	inputData();
 
+	if (m_Amount > 10000 || m_Runtime > 4)
+		rate = 5;
 
+	endAmount = calcEndAmount(rate);
 
+	printData(rate, m_Runtime, m_Amount, endAmount);
 
 	//Programmende
 	cout << endl << endl;
@@ -65,7 +69,7 @@ void main(void)
 /// </summary>
 void inputData()
 {
-	cout << "Bitte Anlagekapital in Euro eingeben: ";
+	cout << "Bitte Startkapital in Euro eingeben: ";
 	cin >> m_Amount;
 	cout << endl;
 
@@ -82,13 +86,26 @@ void inputData()
 /// <returns>Endkapital</returns>
 float calcEndAmount(float rate)
 {
-	return 0;
+	float endAmount = m_Amount;
+
+	//Iterative Zinsberechnung p.a.
+	for (int i = 0; i < m_Runtime; i++)
+		endAmount += endAmount * rate / 100;
+
+	return endAmount;
 }
 
 /// <summary>
 /// Ausgabe des Zinssatzes, der Laufzeit, des Kapitals und des Endkapitals
 /// </summary>
-void printData()
+/// <param name="rate">Zinssatz (in Prozent)</param>
+/// <param name="runtime">Laufzeit (in Jahren)</param>
+/// <param name="amount">Startkapital (in Euro)</param>
+/// <param name="endAmount">Endkapital (in Euro)</param>
+void printData(float rate, float runtime, float amount, float endAmount)
 {
+	cout << "Mit einem Startkapital von " << amount << " Euro, lässt sich bei einem Zinssatz von "<< rate <<
+		" % p.a. in " << runtime << " Jahren ein Endkapital von " << endAmount << " Euro generieren." << endl;
+	
 	cout << "" << endl;
 }
