@@ -6,8 +6,8 @@ anschließend die Ausgabe des Bruttobetrages erfolgen.
 
 	Erfassen Sie die Programmschritte:
 
-		* Eingabe des Nettobetrages,
-		* Berechnung des Bruttobetrages und
-		* Ausgabe des Bruttobetrages
-	
+		+ Eingabe des Nettobetrages,
+		+ Berechnung des Bruttobetrages und
+		+ Ausgabe des Bruttobetrages
+
 	durch entsprechende Unterprogramme.
