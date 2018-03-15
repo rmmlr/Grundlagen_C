@@ -4,10 +4,9 @@
 Als erstes soll die Eingabe des Nettobetrages, danach die Berechnung und
 anschließend die Ausgabe des Bruttobetrages erfolgen.
 
-	Erfassen Sie die Programmschritte:
+Erfassen Sie die Programmschritte:
 
-		+ Eingabe des Nettobetrages,
-		+ Berechnung des Bruttobetrages und
-		+ Ausgabe des Bruttobetrages
-
-	durch entsprechende Unterprogramme.
+	+ Eingabe des Nettobetrages,
+	+ Berechnung des Bruttobetrages und
+	+ Ausgabe des Bruttobetrages
+durch entsprechende Unterprogramme.
