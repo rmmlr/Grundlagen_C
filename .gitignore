@@ -6,6 +6,7 @@
 #HSMW
 Aufgaben/**/*.doc
 Aufgaben/**/*.docx
+Aufgaben/**/*.pdf
 
 # User-specific files
 *.suo
