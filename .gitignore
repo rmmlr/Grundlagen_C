@@ -4,8 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 #HSMW
-Aufgaben/*.doc
-Aufgaben/*.docx
+Aufgaben/**/*.doc
+Aufgaben/**/*.docx
 
 # User-specific files
 *.suo
