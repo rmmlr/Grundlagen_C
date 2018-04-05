@@ -24,9 +24,7 @@ void main(void) //"main" Qualifiziert den Programmeinstiegspunkt, auch aus Haupt
 	const double RATE = 1.95583; //Deklaration einer Konstatnte mit dem Name "RATE" vom Typ Double.
 	double amountDm, amountEuro;
 	int stepWidth; //Deklaration einer Variable mit dem Name "stepWidth" vom Typ Integer.
-
-
-
+	
 	//Ausgabekopf
 	cout << "Grundlagen Programmierung C" << endl;
 	cout << "Praktikumsaufgabe: Nr.: 01-4 (Projekt: ConsoleApplication_01_4)" << endl << endl;
