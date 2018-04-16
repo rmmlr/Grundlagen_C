@@ -6,4 +6,5 @@
 
 
 ## Installation
-Zip-Datei in das lokale Template-Verzeichnis `C:\Users\<UserName>\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C++ Project` kopieren.
+Zip-Datei in das lokale Template-Verzeichnis kopieren.  
+Zum Beispiel unter: `C:\Users\<UserName>\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C++ Project` oder `C:\Benutzer\<UserName>\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C++ Project`   
