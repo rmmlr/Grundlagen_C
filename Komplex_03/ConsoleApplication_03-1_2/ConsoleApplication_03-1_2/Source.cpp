@@ -76,7 +76,6 @@ void inputData()
 	cout << "Bitte Laufzeit in Jahren eingeben: ";
 	cin >> m_Runtime;
 	cout << endl;
-
 }
 
 /// <summary>
