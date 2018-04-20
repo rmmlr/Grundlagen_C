@@ -79,5 +79,6 @@ void main(void)
 	} while ((ans == 'J' || ans == 'j'));
 
 	cout << endl;
+
 	system("pause");
 }
