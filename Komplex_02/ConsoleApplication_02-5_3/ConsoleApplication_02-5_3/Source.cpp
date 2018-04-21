@@ -11,6 +11,13 @@ void main(void)
 	// auskommentieren oder Anwendung mit Administratorrechten neu starten.
 	locale::global(locale("German_germany"));
 
+	// Ausgabe der Dezimalstellen für Double verhindern (es werden 0 Nachkommastellen angezeigt)
+	std::cout.precision(0);
+
+	// Ausgabe von Zahlen auf "Fixed" stellen, große Zahlen werden ansonsten im Wissenschaftlichen Format ausgegeben
+	// Einstellung wirkt sich auf alle folgenden Ausgaben per "cout" aus
+	cout << fixed;
+
 
 	//Variablendeklaration
 
