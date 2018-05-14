@@ -3,6 +3,7 @@
 
 ## Inhalt
 * C++ Aufgabe 1 2018 (1-2018)
+* C++ Aufgabe 2 2018 (1-2018)
 
 ## Tools
 ### Struktogramme
