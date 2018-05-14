@@ -47,7 +47,7 @@ void main(void) //"main" Qualifiziert den Programmeinstiegspunkt, auch aus Haupt
 	stepWidth = 1;
 
 	cout << "EURO\tDM" << endl; //Ausgabe Spaltennamen (Euro und DM)
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < 10; i++) //Schleife zur Berechnung von 10 Werten
 	{
 		Euro[i] = amountEuro + stepWidth * i; //Berechnung des aktuellen Euro-Wertes, Speichern im Array (euro) unter aktuellen Index (i)
 		Dm[i] = Euro[i] * RATE; //Berechnung des aktuellen DM-Wertes, Speichern im Array (dm) unter aktuellen Index (i)
