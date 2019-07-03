@@ -78,5 +78,5 @@ void main(void) //"main" Qualifiziert den Programmeinstiegspunkt, auch aus Haupt
 
 	//Programmende
 	cout << endl << endl;
-	system("pause");
+	//system("pause");
 } //Ende der Hauptfunktion (main-Funktion)
